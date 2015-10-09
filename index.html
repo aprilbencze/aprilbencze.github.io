@@ -6,9 +6,9 @@
   <meta name="description" content="April Bencze Coastal BC Wildlife Photography">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <title>April Benze Photography</title>
 </head>
@@ -17,18 +17,45 @@
     <div class="row">
       <div class="col-md-4">
         <h1 id="aprilTitle"><span id="nameColour">april</span> bencze photo<span id="nameColour">graphy</span></h1>
-        <ul id="mainNav">
-         <li><a href="#">land</a></li>
-         <li><a href="#">water</a></li>
-         <li><a href="#">about</a></li>
-         <li><a href="#">contact</a></li>
-        </ul>
-      </div>
-      <div class="col-md-8">
-        <img src="images/seaLion.jpg" class="img-responsive" alt="Sea Lion">
+        <section id="mainNav">
+          <p><a href="land.html">land</a></p>
+         <p><a href="water.html">water</a></p>
+         <p><a href="about.html">about</a></p>
+         <p><a href="contact.html">contact</a></p>
+       </section>
+     </div>
+      <div class="col-md-8" id="mainDiv">
+        <div class="slickCarousel">
+          <div>
+           <img src="images/seaLion.jpg" class="img-responsive" alt="...">
+          </div>
+          <div>
+            <img src="images/kayak.jpg" class="img-responsive" alt="...">
+          </div>
+          <div>
+            <img src="images/maxo.jpg" class="img-responsive" alt="...">
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <nav class="navbar navbar-fixed-bottom">
+    <div class="container">
+      <ul id="footerContent">
+        <li>&copy; 2015 April Bencze<li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>     
+    </div>
+  </nav>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript/slick.min.js"></script>
+  <script type="text/javascript" src="javascript/slider.js"></script>
 
 </body>
 </html>

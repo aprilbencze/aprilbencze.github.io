@@ -6,15 +6,51 @@
   border-top: 1px solid black;
 }
 
+/*****************
+NAV BAR
+*****************/
+
 #mainNav {
-  list-style: none;
+  display: inline-block;
+  margin-top: 1rem;
   font-size: 2rem;
 }
 
 #mainNav a {
-    color: #000;
+  color: #000;
 }
 
 #mainNav a:hover {
-  background-color: #b2b2b2;
+  text-decoration: none;
+  color: #b2b2b2;
 }
+
+/*****************
+FOOTER
+*****************/
+
+#navFooter {
+  height: 20px;
+}
+
+#footerContent {
+  text-align: center;
+}
+
+#footerContent li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 1.5rem;
+}
+
+/*****************
+CAROUSEL
+*****************/
+
+.slickCarousel {
+  margin-top: 2rem;
+  height: 250px;
+}
+
+
+
