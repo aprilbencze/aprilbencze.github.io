@@ -35,12 +35,14 @@ FOOTER
 
 #footerContent {
   text-align: center;
+  font-style: helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 #footerContent li {
   list-style: none;
   display: inline-block;
-  padding-top: 1.5rem;
+  padding: 1rem;
 }
 
 /*****************
