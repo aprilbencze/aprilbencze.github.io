@@ -6,6 +6,16 @@
   border-top: 1px solid black;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b2b2b2;
+}
+
 /*****************
 NAV BAR
 *****************/
@@ -43,6 +53,14 @@ FOOTER
   list-style: none;
   display: inline-block;
   padding: 1rem;
+}
+
+.fa {
+  color: black;
+}
+
+.fa:hover {
+  color:#808080;
 }
 
 /*****************

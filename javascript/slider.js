@@ -1,7 +1,8 @@
 $(function() {
   $(".slickCarousel").slick({
     infinite: true,
-    arrows: true
+    dots: true,
+    fade:true
   });
 });
 
