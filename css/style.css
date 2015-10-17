@@ -14,6 +14,19 @@ a {
 a:hover {
   text-decoration: none;
   color: #b2b2b2;
+  background-color: #fff;
+}
+
+#mainDiv {
+  margin-top: 2rem;
+}
+
+/*****************
+IMAGES
+*****************/
+
+.img-responsive {
+  max-height: 80%;
 }
 
 /*****************
@@ -61,15 +74,6 @@ FOOTER
 
 .fa:hover {
   color:#808080;
-}
-
-/*****************
-CAROUSEL
-*****************/
-
-.slickCarousel {
-  margin-top: 2rem;
-  height: 250px;
 }
 
 
