@@ -1,13 +1,10 @@
 /*****************
 GENERAL
 *****************/
-
-#nameColour {
-  color: #b2b2b2;
-}
-
 #aprilTitle {
   border-top: 1px solid black;
+  font-size: 5rem;
+  margin-bottom: -2rem;
 }
 
 a {
@@ -31,8 +28,9 @@ IMAGES
 
 .imageContainer {
   margin-top: 2rem;
-  width: 90%;
-  height: 90%; 
+  width: 85%;
+  height: 85%;
+  margin-bottom: 2rem; 
 }
 /*****************
 NAV BAR
@@ -57,6 +55,18 @@ NAV BAR
   color: #000;
 }
 
+#currentPage {
+  color: #b2b2b2;
+}
+
+/*****************
+SLIDER
+*****************/
+
+.slides li {
+  list-style: none;
+}
+
 /*****************
 FOOTER
 *****************/
@@ -66,6 +76,7 @@ FOOTER
 }
 
 #footerContent {
+  padding-top: 1.2rem;
   text-align: center;
   font-style: helvetica, sans-serif;
   font-size: 1.2em;
@@ -83,6 +94,11 @@ FOOTER
 
 .fa:hover {
   color:#808080;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 1rem;
 }
 
 
