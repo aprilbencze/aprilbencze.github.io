@@ -28,10 +28,25 @@ IMAGES
 
 .imageContainer {
   margin-top: 2rem;
-  width: 85%;
-  height: 85%;
+  height: 85% !important;
+  width: 85% !important;
   margin-bottom: 2rem; 
 }
+
+.imageNav {
+  display: inline;
+  float: left;
+  padding-right: .5rem;
+}
+
+/*#slide2 {
+  display: none;
+}
+
+#slide3 {
+  display: none;
+}*/
+
 /*****************
 NAV BAR
 *****************/
