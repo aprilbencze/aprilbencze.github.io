@@ -7,7 +7,10 @@
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="javascript/slider.js"></script>
   <title>April Bencze Photography</title>
 </head>
 <body>
@@ -27,13 +30,28 @@
         </section>
       </div>
       <div class="col-md-8" id="mainDiv">
-        <h1>Water</h1>
+        <div class="container imageContainer">
+          <p class="imageNav" id="number1">1</p>
+          <p class="imageNav" id="number2">2</p>
+          <p class="imageNav" id="number3">3</p>
+          <p class="imageNav" id="number4">4</p>
+          <p class="imageNav" id="number5">5</p>
+          <p class="imageNav" id="number6">6</p>
+          <div class="slideContainer">
+            <img class="img-responsive" id="slide1" src="images/water/seaPens.jpg"/>
+            <img class="img-responsive" id="slide2" src="images/water/tavDive.jpg"/>
+            <img class="img-responsive" id="slide3" src="images/water/rissosDolphins.jpg"/>
+            <img class="img-responsive" id="slide4" src="images/water/greenlingEggs.jpg"/>
+            <img class="img-responsive" id="slide5" src="images/water/octoColourChange.jpg"/>
+            <img class="img-responsive" id="slide6" src="images/water/crSalmon.jpg"/>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <nav class="navbar navbar-fixed-bottom">
-    <div class="container">
+  <nav class="navbar">
+    <div class="container footerContainer">
       <ul id="footerContent">
         <li>&copy; 2015 April Bencze<li>
          <li><a href="https://instagram.com/aprilbencze/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
@@ -44,9 +62,6 @@
      </div>
    </nav>
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="javascript/jquery.flexslider.js"></script>
-   <script type="text/javascript" src="javascript/slider.js"></script>
+
  </body>
  </html>
