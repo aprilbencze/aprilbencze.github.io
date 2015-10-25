@@ -27,7 +27,6 @@ $(function() {
     $("#slide12").hide();
   }
 
-
   $("#number1").on('click', function () {
     hide();
     $("#slide1").show();

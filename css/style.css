@@ -58,6 +58,10 @@ IMAGES
   padding-right: .5rem;
 }
 
+.imageNav:hover {
+  cursor: pointer;
+}
+
 /*****************
 NAV BAR
 *****************/
